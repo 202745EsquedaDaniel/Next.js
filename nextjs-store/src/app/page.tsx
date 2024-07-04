@@ -1,6 +1,7 @@
 import { Description } from "./store/components/home/Description";
 import { Hero } from "./store/components/home/Hero";
 import { MainProducts } from "./store/components/home/MainProducts";
+import './globals.css'
 
 export default function Home() {
   return (
