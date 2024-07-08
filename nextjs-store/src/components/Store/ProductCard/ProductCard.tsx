@@ -23,7 +23,7 @@ export const ProductCard = ({ product }: ProductCardInterface) => {
                     <div className=" p-3 pt-0 rounded-md">
                         <h3>{product.title}</h3>
                     </div>
-                    <span className=" w-fit bg-red-700 text-white inline-block p-1 absolute -top-2 -right-1 rounded-md rotate-[5deg]">${product.price} USD</span>
+                    <span className=" w-fit bg-red-700 text-white inline-block p-1 absolute -top-2 right-0 rounded-md rotate-[5deg]">${product.price} USD</span>
                 </article>
         </Link>
     )
