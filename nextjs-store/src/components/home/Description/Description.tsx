@@ -20,14 +20,14 @@ export const Description = () => {
               hasBorder ? "border-2 border-purple-500" : ""
             }`}
           >
-            <Image
-              className="object-cover rounded-2xl shadow-custom-shadow"
-              src="/images/description.jpeg"
-              alt="products marketplace"
-              fill
-              placeholder="blur"
-              blurDataURL={PLACEHOLDER_IMAGE}
-            />
+              <Image
+                className="object-cover rounded-2xl shadow-custom-shadow"
+                src="/images/description.jpeg"
+                alt="products marketplace"
+                fill
+                placeholder="blur"
+                blurDataURL={PLACEHOLDER_IMAGE}
+              />
           </div>
         </button>
         <div className="flex flex-col justify-center">
